@@ -194,5 +194,4 @@ test_data['MWS'] = pred[:,2]
 
 test_data.to_csv('fasttext_1dcnn.csv',header=True,index=False)
 
-files.download('fasttext_1dcnn.csv')
 
